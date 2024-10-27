@@ -1,5 +1,4 @@
 {
-  "homepage": "https://avez-fsd.github.io/auth-fe/",
   "name": "auth-fe",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "pnpm run build"
   },
   "dependencies": {
     "axios": "^1.7.7",
